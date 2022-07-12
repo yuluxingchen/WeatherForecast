@@ -1,11 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cab0b1f-ce2a-401c-8ed8-4048117a7403" name="变更" comment="" />
+    <list default="true" id="6cab0b1f-ce2a-401c-8ed8-4048117a7403" name="变更" comment="2022.7.13">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-logic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-logic/src/main/java/com/qianhuan/logic/config/WeatherConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-logic/src/main/java/com/qianhuan/logic/entity/WeatherBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-logic/src/main/java/com/qianhuan/logic/entity/WeatherSk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-logic/src/main/java/com/qianhuan/logic/entity/WeatherWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-logic/src/main/java/com/qianhuan/logic/service/Forecast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-logic/src/main/java/com/qianhuan/logic/service/impl/ForecastImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-logic/src/main/java/com/qianhuan/logic/utils/ApiUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/.env.staging" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/bin/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/bin/package.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/bin/run-web.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/public/html/ie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/monitor/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/monitor/job.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/monitor/jobLog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/monitor/online.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/monitor/operlog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/monitor/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/system/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/system/dict/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/system/dict/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/system/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/system/notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/api/tool/gen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/401_images/401.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/404_images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/bug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/build.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/cascader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/component.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/date-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/date.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/dict.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/documentation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/drag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/druid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/education.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/example.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/excel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/exit-fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/eye-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/form.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/guide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/input.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/international.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/job.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/language.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/log.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/logininfor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/monitor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/nested.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/number.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/online.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/people.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/peoples.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/qq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/rate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/redis-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/redis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/row.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/select.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/size.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/skill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/slider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/swagger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/switch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/system.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/textarea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/theme.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/time-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/tool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/tree-table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/validCode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/wechat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svg/zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/images/dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/images/light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/images/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/element-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/qianhuan.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/assets/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/day.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/hour.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/min.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/month.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/result.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/second.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/week.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Crontab/year.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/DictData/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/DictTag/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Editor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/FileUpload/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/HeaderSearch/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/IconSelect/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/IconSelect/requireIcons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/ImagePreview/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/ImageUpload/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Pagination/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/PanThumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/ParentView/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/RightPanel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/RightToolbar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/Screenfull/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/SizeSelect/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/ThemePicker/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/TopNav/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/components/iFrame/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/directive/dialog/drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/directive/dialog/dragHeight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/directive/dialog/dragWidth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/directive/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/directive/module/clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/InnerLink/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/Settings/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/TagsView/ScrollPane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/TagsView/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/plugins/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/plugins/download.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/plugins/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/plugins/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/store/modules/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/store/modules/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/store/modules/tagsView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/dict/Dict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/dict/DictConverter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/dict/DictData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/dict/DictMeta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/dict/DictOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/dict/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/errorCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/generator/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/generator/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/generator/drawingDefault.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/generator/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/generator/icon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/generator/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/generator/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/jsencrypt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/qianhuan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/scroll-to.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/components/icons/element-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/components/icons/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/components/icons/svg-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/dashboard/BarChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/dashboard/LineChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/dashboard/PanelGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/dashboard/PieChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/dashboard/RaddarChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/dashboard/mixins/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/error/401.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/error/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/index_v1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/monitor/cache/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/monitor/cache/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/monitor/druid/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/monitor/job/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/monitor/job/log.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/monitor/online/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/monitor/operlog/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/monitor/server/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/redirect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/system/config/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/system/dict/data.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/system/dict/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/system/menu/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/system/notice/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/tool/gen/basicInfoForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/tool/gen/editTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/tool/gen/genInfoForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/tool/gen/importTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/tool/gen/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/src/views/tool/swagger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather-ui/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/annotation/Anonymous.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/annotation/Anonymous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/annotation/DataScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/annotation/DataScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/annotation/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/annotation/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/annotation/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/annotation/Excel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/annotation/Excels.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/annotation/Excels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/annotation/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/annotation/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/annotation/RateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/annotation/RateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/annotation/RepeatSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/annotation/RepeatSubmit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/config/HuaFangConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/config/QianHuanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/constant/CacheConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/CacheConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/constant/GenConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/GenConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/constant/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/HttpStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/constant/ScheduleConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/ScheduleConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/constant/UserConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/UserConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/AjaxResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/ResponseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/entity/SysDictData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/entity/SysDictData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/entity/SysDictType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/entity/SysDictType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/model/LoginBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/model/LoginBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/model/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/model/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/domain/model/RegisterBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/model/RegisterBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/page/PageDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/page/PageDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/page/TableDataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/page/TableDataInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/page/TableSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/page/TableSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/redis/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/redis/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/text/CharsetKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/text/CharsetKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/text/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/text/Convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/core/text/StrFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/text/StrFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/enums/BusinessStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/enums/BusinessStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/enums/BusinessType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/enums/BusinessType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/enums/DataSourceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/enums/DataSourceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/enums/HttpMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/enums/HttpMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/enums/LimitType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/enums/LimitType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/enums/OperatorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/enums/OperatorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/enums/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/enums/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/UtilException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/UtilException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/base/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/base/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/file/FileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/file/FileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/file/FileNameLengthLimitExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/file/FileSizeLimitExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/file/FileSizeLimitExceededException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/file/InvalidExtensionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/file/InvalidExtensionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/job/TaskException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/job/TaskException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/user/CaptchaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/user/CaptchaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/user/CaptchaExpireException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/user/CaptchaExpireException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/user/UserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/user/UserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/exception/user/UserPasswordNotMatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/filter/RepeatableFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/filter/RepeatableFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/filter/RepeatedlyRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/filter/RepeatedlyRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/filter/XssFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/filter/XssFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/filter/XssHttpServletRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/filter/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/DictUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/DictUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/LogUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/LogUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/MessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/MessageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/PageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/ServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/ServletUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/ThreadsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/ThreadsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/bean/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/bean/BeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/bean/BeanValidators.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/bean/BeanValidators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/file/FileTypeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/file/FileTypeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/file/FileUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/file/FileUploadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/file/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/file/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/file/ImageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/file/ImageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/file/MimeTypeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/file/MimeTypeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/html/EscapeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/html/EscapeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/html/HTMLFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/html/HTMLFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/http/HttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/http/HttpHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/http/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/http/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/ip/AddressUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/ip/AddressUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/ip/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/ip/IpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/poi/ExcelHandlerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/poi/ExcelHandlerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/poi/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/poi/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/reflect/ReflectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/reflect/ReflectUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/sign/Base64.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/sign/Base64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/sign/Md5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/sign/Md5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/spring/SpringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/spring/SpringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/sql/SqlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/sql/SqlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/uuid/IdUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/uuid/IdUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/uuid/Seq.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/uuid/Seq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/utils/uuid/UUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/utils/uuid/UUID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/xss/Xss.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/xss/Xss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/huafang/common/xss/XssValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/xss/XssValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Bp9vTxXWaxJFpLx9bjFBFasQfq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,10 +386,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ruoyi",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "spring.boot",
+    "spring.configuration.checksum": "ac8cf48732427e04e9d23c96f520e88c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HuaFang\WeatherForecast\Weather-common\src\main\java\com\qianhuan\common" />
+      <recent name="D:\HuaFang\WeatherForecast\Weather-logic\src\main\java\com\qianhuan\logic" />
+      <recent name="D:\HuaFang\WeatherForecast" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -29,7 +413,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657592392977</updated>
+      <workItem from="1657592394567" duration="15715000" />
+      <workItem from="1657616564673" duration="706000" />
+      <workItem from="1657671581961" duration="7618000" />
     </task>
+    <task id="LOCAL-00001" summary="2022.7.12">
+      <created>1657592449019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657592449019</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2022.7.12">
+      <created>1657592480152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657592480152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2022.7.12" />
+    <MESSAGE value="2022.7.13" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.7.13" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
