@@ -4,7 +4,6 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.qianhuan.common.constant.HttpStatus;
 import com.qianhuan.common.core.domain.AjaxResult;
-import com.qianhuan.common.core.domain.model.LoginUser;
 import com.qianhuan.common.core.page.PageDomain;
 import com.qianhuan.common.core.page.TableDataInfo;
 import com.qianhuan.common.core.page.TableSupport;
@@ -144,37 +143,5 @@ public class BaseController {
     public String redirect(String url)
     {
         return StringUtils.format("redirect:{}", url);
-    }
-
-    /**
-     * 获取用户缓存信息
-     */
-    public LoginUser getLoginUser()
-    {
-        return SecurityUtils.getLoginUser();
-    }
-
-    /**
-     * 获取登录用户id
-     */
-    public Long getUserId()
-    {
-        return getLoginUser().getUserId();
-    }
-
-    /**
-     * 获取登录部门id
-     */
-    public Long getDeptId()
-    {
-        return getLoginUser().getDeptId();
-    }
-
-    /**
-     * 获取登录用户名
-     */
-    public String getUsername()
-    {
-        return getLoginUser().getUsername();
     }
 }

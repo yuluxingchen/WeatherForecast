@@ -79,7 +79,6 @@ export default {
         this.onlyOneChild = { ... parent, path: '', noShowingChildren: true }
         return true
       }
-
       return false
     },
     resolvePath(routePath, routeQuery) {

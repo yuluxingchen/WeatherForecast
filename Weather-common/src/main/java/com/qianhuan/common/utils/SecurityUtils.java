@@ -1,7 +1,6 @@
 package com.qianhuan.common.utils;
 
 import com.qianhuan.common.constant.HttpStatus;
-import com.qianhuan.common.core.domain.model.LoginUser;
 import com.qianhuan.common.exception.ServiceException;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -11,50 +10,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
  * 安全服务工具类
  */
 public class SecurityUtils {
-    /**
-     * 用户ID
-     */
-    public static Long getUserId() {
-        try
-        {
-            return getLoginUser().getUserId();
-        }
-        catch (Exception e)
-        {
-            throw new ServiceException("获取用户ID异常", HttpStatus.UNAUTHORIZED);
-        }
-    }
-
-    /**
-     * 获取用户账户
-     **/
-    public static String getUsername()
-    {
-        try
-        {
-            return getLoginUser().getUsername();
-        }
-        catch (Exception e)
-        {
-            throw new ServiceException("获取用户账户异常", HttpStatus.UNAUTHORIZED);
-        }
-    }
-
-    /**
-     * 获取用户
-     **/
-    public static LoginUser getLoginUser()
-    {
-        try
-        {
-            return (LoginUser) getAuthentication().getPrincipal();
-        }
-        catch (Exception e)
-        {
-            throw new ServiceException("获取用户信息异常", HttpStatus.UNAUTHORIZED);
-        }
-    }
-
     /**
      * 获取Authentication
      */
