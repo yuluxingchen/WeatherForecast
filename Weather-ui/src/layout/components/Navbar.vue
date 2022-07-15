@@ -17,11 +17,8 @@
 
       </template>
 
-      <el-dropdown class="avatar-container right-menu-item hover-effect" trigger="click">
-        <div class="avatar-wrapper">
-          <img :src="avatar" class="user-avatar">
-          <i class="el-icon-caret-bottom" />
-        </div>
+      <el-dropdown class="el-dropdown-span" trigger="click">
+        <span class="el-icon-s-grid"></span>
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item @click.native="setting = true">
             <span>布局设置</span>
@@ -53,7 +50,6 @@ export default {
   computed: {
     ...mapGetters([
       'sidebar',
-      'avatar',
       'device'
     ]),
     setting: {
@@ -124,7 +120,15 @@ export default {
     &:focus {
       outline: none;
     }
-
+    .el-dropdown-span {
+      display: inline-block;
+      padding-left: 2px;
+      padding-right: 8px;
+      height: 100%;
+      font-size: 25px;
+      color: #5a5e66;
+      vertical-align: text-bottom;
+    }
     .right-menu-item {
       display: inline-block;
       padding: 0 8px;

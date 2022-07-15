@@ -12,11 +12,16 @@
         <module>Weather-common</module>
         <module>Weather-logic</module>
         <module>Weather-ui</module>
+        <module>Test</module>
+        <module>Weather-admin</module>
+        <module>Weather-framework</module>
+        <module>Weather-generator</module>
+        <module>Weather-quartz</module>
+        <module>Weather-system</module>
     </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
 </project>

@@ -1,0 +1,3 @@
+Application Version: ${weather.version}
+Application copyrightYear: ${weather.copyrightYear}
+Spring Boot Version: ${spring-boot.version}

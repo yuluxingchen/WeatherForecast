@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @author yuluxingchen
  */
 @Component // 将此类标记为Spring容器中的一个Bean
-@ConfigurationProperties(prefix = "qianhuan") //用于获取配置文件中的属性定义并绑定到Java Bean或属性中
+@ConfigurationProperties(prefix = "weather") //用于获取配置文件中的属性定义并绑定到Java Bean或属性中
 public class QianHuanConfig {
     /** 项目名称 */
     private String name;
@@ -27,9 +27,6 @@ public class QianHuanConfig {
 
     /** 地址开关 */
     private static boolean addressEnabled;
-
-    /** 验证码类型 */
-    private static String captchaType;
 
     /** 获取项目名称 */
     public String getName()
@@ -103,30 +100,12 @@ public class QianHuanConfig {
         QianHuanConfig.addressEnabled = addressEnabled;
     }
 
-    /** 获取验证码类型 */
-    public static String getCaptchaType() {
-        return captchaType;
-    }
-
-    /** 设置验证码类型*/
-    public void setCaptchaType(String captchaType) {
-        QianHuanConfig.captchaType = captchaType;
-    }
-
     /**
      * 获取导入上传路径
      */
     public static String getImportPath()
     {
         return getProfile() + "/import";
-    }
-
-    /**
-     * 获取头像上传路径
-     */
-    public static String getAvatarPath()
-    {
-        return getProfile() + "/avatar";
     }
 
     /**

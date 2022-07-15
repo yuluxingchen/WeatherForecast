@@ -15,6 +15,7 @@
 export default {
   name: "Index",
   data() {
+    this.$router.push({path: "/"})
     return {
       // 版本号
       version: "1.0.0",
