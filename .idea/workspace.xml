@@ -8,50 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cab0b1f-ce2a-401c-8ed8-4048117a7403" name="变更" comment="2022.7.15">
-      <changelist_data name="yuluxingchen" email="858767671@qq.com" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ktor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-admin/src/main/java/com/qianhuan/web/WeatherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-admin/src/main/resources/META-INF/spring-devtools.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-admin/src/main/resources/application-druid.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-admin/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-admin/src/main/resources/i18n/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-admin/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-admin/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/generator.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/mapper/generator/GenTableColumnMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/mapper/generator/GenTableMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/controller.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/domain.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/mapper.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/service.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/serviceImpl.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/sub-domain.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/js/api.js.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/sql/sql.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/vue/index-tree.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/vue/index.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/vue/v3/index-tree.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/vue/v3/index.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/xml/mapper.xml.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-quartz/src/main/resources/resources/mapper/quartz/SysJobLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-quartz/src/main/resources/resources/mapper/quartz/SysJobMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysConfigMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysDictDataMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysDictTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysOperLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather-admin/src/main/java/com/qianhuan/web/WeatherApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-admin/src/main/java/com/qianhuan/web/WeatherApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/config/QianHuanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/config/QianHuanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6cab0b1f-ce2a-401c-8ed8-4048117a7403" name="变更" comment="2022.7.18" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,40 +37,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "D:/HuaFang/WeatherForecast/Weather-admin/src/main/resources",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "spring.configuration.checksum": "b80071f41b8a36d8b60b93afd1c37036",
-    "ts.external.directory.path": "D:\\IntelliJ IDEA 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HuaFang/WeatherForecast/Weather-admin/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b80071f41b8a36d8b60b93afd1c37036&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IntelliJ IDEA 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HuaFang\WeatherForecast\Weather-admin\src\main\resources" />
@@ -181,7 +138,7 @@
       <workItem from="1657758577496" duration="4255000" />
       <workItem from="1657766183252" duration="11823000" />
       <workItem from="1657846854196" duration="15949000" />
-      <workItem from="1658104262511" duration="592000" />
+      <workItem from="1658104262511" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="2022.7.12">
       <created>1657592449019</created>
@@ -211,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657851791008</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022.7.15">
+      <created>1658105484103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658105484103</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2022.7.18">
+      <created>1658105784725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658105784725</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +203,9 @@
     <MESSAGE value="2022.7.12" />
     <MESSAGE value="2022.7.13" />
     <MESSAGE value="2022.7.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022.7.15" />
+    <MESSAGE value="2022.7.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.7.18" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
