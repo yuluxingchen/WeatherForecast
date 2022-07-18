@@ -7,11 +7,6 @@ package com.qianhuan.common.constant;
  */
 public class CacheConstants {
     /**
-     * 登录用户的 redis key
-     */
-    public static final String LOGIN_TOKEN_KEY = "login_tokens:";
-
-    /**
      * 验证码的 redis key
      */
     public static final String CAPTCHA_CODE_KEY = "captcha_codes:";

@@ -2,13 +2,48 @@
 <project version="4">
   <component name="AnalysisUIOptions">
     <option name="SPLITTER_PROPORTION" value="0.46341464" />
-    <option name="SCOPE_TYPE" value="4" />
+    <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cab0b1f-ce2a-401c-8ed8-4048117a7403" name="变更" comment="2022.7.18" />
+    <list default="true" id="6cab0b1f-ce2a-401c-8ed8-4048117a7403" name="变更" comment="2022.7.18">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/CacheConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/CacheConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/UserConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/constant/UserConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/entity/SysDictData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-common/src/main/java/com/qianhuan/common/core/domain/entity/SysDictData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/config/ServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/config/ServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/config/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/config/ThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/interceptor/impl/SameUrlDataInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/interceptor/impl/SameUrlDataInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/manager/factory/AsyncFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/manager/factory/AsyncFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/web/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-framework/src/main/java/com/qianhuan/framework/web/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/generator.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/mapper/generator/GenTableColumnMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/mapper.generator/GenTableColumnMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/mapper/generator/GenTableMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/mapper.generator/GenTableMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/java/controller.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/java/domain.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/mapper.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/java/mapper.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/service.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/java/service.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/serviceImpl.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/java/serviceImpl.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/java/sub-domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/java/sub-domain.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/js/api.js.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/js/api.js.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/sql/sql.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/sql/sql.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/vue/index-tree.vue.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/vue/index-tree.vue.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/vue/index.vue.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/vue/index.vue.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-generator/src/main/resources/resources/vm/xml/mapper.xml.vm" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-generator/src/main/resources/vm/xml/mapper.xml.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-system/src/main/java/com/qianhuan/system/service/ISysOperLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-system/src/main/java/com/qianhuan/system/service/ISysOperLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-system/src/main/resources/system/SysRoleMenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +63,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -37,40 +79,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/HuaFang/WeatherForecast/Weather-admin/src/main/resources&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b80071f41b8a36d8b60b93afd1c37036&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\IntelliJ IDEA 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "D:/HuaFang/WeatherForecast/Weather-admin/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.57586205",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "spring.configuration.checksum": "b80071f41b8a36d8b60b93afd1c37036",
+    "ts.external.directory.path": "D:\\IntelliJ IDEA 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HuaFang\WeatherForecast\Weather-admin\src\main\resources" />
@@ -81,6 +123,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HuaFang\WeatherForecast\Weather-generator\src\main\resources" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -105,6 +150,8 @@
       </method>
     </configuration>
     <configuration name="WeatherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <output_file path="D:\Log" is_save="true" />
       <module name="Weather-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qianhuan.web.WeatherApplication" />
       <extension name="coverage">
@@ -117,6 +164,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.testTest.show" />
+      <item itemvalue="Spring Boot.WeatherApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.WeatherApplication" />
@@ -139,6 +190,7 @@
       <workItem from="1657766183252" duration="11823000" />
       <workItem from="1657846854196" duration="15949000" />
       <workItem from="1658104262511" duration="1202000" />
+      <workItem from="1658107744346" duration="17804000" />
     </task>
     <task id="LOCAL-00001" summary="2022.7.12">
       <created>1657592449019</created>
@@ -182,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658105784725</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2022.7.18">
+      <created>1658108215036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658108215036</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +265,30 @@
     <MESSAGE value="2022.7.18" />
     <option name="LAST_COMMIT_MESSAGE" value="2022.7.18" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.context.ApplicationContextException" package="org.springframework.context" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Test/src/main/java/test.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Weather-admin/src/main/java/com/qianhuan/web/WeatherApplication.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

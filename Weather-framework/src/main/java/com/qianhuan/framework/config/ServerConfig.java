@@ -1,15 +1,17 @@
 package com.qianhuan.framework.config;
 
-import com.qianhuan.common.utils.ServletUtils;
-import org.springframework.stereotype.Component;
-
 import javax.servlet.http.HttpServletRequest;
+import com.qianhuan.common.utils.ServletUtils;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 /**
  * 服务相关配置
  * 
- * @author ruoyi
+ * @author yuluxingchen
  */
+
 @Component
 public class ServerConfig
 {

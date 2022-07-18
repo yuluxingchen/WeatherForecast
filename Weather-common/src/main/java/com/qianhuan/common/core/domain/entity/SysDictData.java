@@ -14,7 +14,8 @@ import javax.validation.constraints.Size;
  * 
  * @author ruoyi
  */
-public class SysDictData extends BaseEntity
+public class
+SysDictData extends BaseEntity
 {
     private static final long serialVersionUID = 1L;
 

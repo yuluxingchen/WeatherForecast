@@ -12,7 +12,6 @@
         <module>Weather-common</module>
         <module>Weather-logic</module>
         <module>Weather-ui</module>
-        <module>Test</module>
         <module>Weather-admin</module>
         <module>Weather-framework</module>
         <module>Weather-generator</module>
